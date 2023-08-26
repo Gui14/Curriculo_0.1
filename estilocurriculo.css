@@ -161,11 +161,11 @@ body{
 }
 
 #espaca{
-    width: 400px;
+    width: 42%;
 }
 
 #espaco{
-    width: 30px;
+    width: 3%;
 }
 
 #linkedin{
@@ -300,7 +300,7 @@ body{
     padding-bottom: 30px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
 
     header{
         width: 100%;
@@ -320,7 +320,7 @@ body{
     }
 
     #links{
-        margin-left: 9%;
+        margin-left: 14%;
     }
 
     .form{
@@ -387,6 +387,14 @@ body{
 
     #block1{
         height: 90%;
+    }
+
+    #tablequa{
+        font-size: 15px;
+    }
+
+    #tableinfo{
+        font-size: 12px;
     }
     
 }
