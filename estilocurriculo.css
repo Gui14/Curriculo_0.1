@@ -315,12 +315,11 @@ body{
 
     #nomeprincipal{
         font-size: 0px;
-        width: 0%;
         color: transparent;
     }
 
     #links{
-        margin-left: 20%;
+        margin-right: 5%;
     }
 
     .form{
