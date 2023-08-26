@@ -302,9 +302,38 @@ body{
 
 @media (max-width: 450px) {
 
+    header{
+        width: 100%;
+        height: 5%;
+        position: fixed;
+    }
+
+    #divheader{
+        height: 100%;
+        align-items: center;
+    }
+
+    #nomeprincipal{
+        font-size: 0px;
+        width: 0%;
+        color: transparent;
+    }
+
+    #links{
+        margin-left: 9%;
+    }
+
+    .form{
+        font-size: 10px;
+        width: 100%;
+        margin-right: 2px;
+        margin-right: 5%;
+    }
+
     #blocoprincipal{
         display: flex;
         flex-direction: column;
+        width: 70%;
     }
 
     #foto{
@@ -312,7 +341,7 @@ body{
         width: 100%;
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
-        margin-top: -15px;
+        margin-top: -10%;
     }
 
     #camada2{
@@ -320,13 +349,44 @@ body{
     }
 
     #camada3{
-        font-size: 7px;
+        font-size: 11px;
         line-height: 0;
+        width: 100%;
+        height: 100%;
+        padding: 0%;
     }
 
     #block2{
         align-items: center;
         padding-left: -40px;
+    }
+
+    .forma{
+        margin-bottom: 1%;
+    }
+
+    #block2{
+        width: 70%;
+    }
+
+    #espaca{
+        width: 35%;
+    }
+
+    #insta{
+        width: 100%;
+    }
+
+    #linkedin{
+        width: 100%;
+    }
+
+    #textintrodutorio{
+       padding: 0%;
+    }
+
+    #block1{
+        height: 90%;
     }
     
 }
