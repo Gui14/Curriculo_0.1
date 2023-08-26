@@ -300,7 +300,7 @@ body{
     padding-bottom: 30px;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 500px) {
 
     header{
         width: 100%;
