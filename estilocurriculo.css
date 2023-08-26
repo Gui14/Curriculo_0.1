@@ -81,7 +81,7 @@ a{
 #blocoprincipal{
     background-color: rgb(228, 233, 240);
     height: 450px;
-    width: 900px;
+    width: 50%;
     align-items: left;
     display: grid;
     justify-content: center;
@@ -95,7 +95,7 @@ a{
 
 #foto{
     height: 450px;
-    width: 400px;
+    width: 100%;
     border-top-left-radius: 20px;
 }
 
@@ -148,7 +148,7 @@ body{
 
 #block2{
     height: 70px;
-    width: 900px;
+    width: 50%;
     background-color: rgb(5, 42, 69) ;
     align-items: center;
     display: flex;
@@ -298,4 +298,35 @@ body{
     display: flex;
     flex-direction: column;
     padding-bottom: 30px;
+}
+
+@media (max-width: 450px) {
+
+    #blocoprincipal{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #foto{
+        height: 50%;
+        width: 100%;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        margin-top: -15px;
+    }
+
+    #camada2{
+        height: 50%;
+    }
+
+    #camada3{
+        font-size: 7px;
+        line-height: 0;
+    }
+
+    #block2{
+        align-items: center;
+        padding-left: -40px;
+    }
+    
 }
