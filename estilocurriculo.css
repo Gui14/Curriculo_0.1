@@ -161,10 +161,10 @@ body{
 }
 
 #espaca{
-    width: 42%;
+    width: 38%;
 }
 
-#espaco{
+.espaco{
     width: 3%;
 }
 
@@ -180,6 +180,16 @@ body{
 #insta{
     border-radius: 10px;
     width: 35px;
+}
+
+#git{
+    border-radius: 10px;
+    width: 70px;
+    margin-top: 5%;
+}
+
+#git:hover{
+    background-color: black;
 }
 
 #insta:hover{
