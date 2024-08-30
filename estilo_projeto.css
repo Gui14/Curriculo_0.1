@@ -26,7 +26,6 @@ body{
 }
 
 header{
-    position: fixed;
     height: 14%;
     width: 100%;
     background-image: url("imagem/fundo_2.jpg");
@@ -255,7 +254,6 @@ a{
     #divheader{
       width: 100%;
       display: flex;
-      
     }
 
     #nomeprincipal{
@@ -302,5 +300,13 @@ a{
       height: 80%;
       border-radius: 20px;
     }
-
+      
+    .content{
+      top: 250%;
+      left: 15%;
+    }
+    .img-prof{
+      width: 40%;
+      height: auto;
+    }
   }
